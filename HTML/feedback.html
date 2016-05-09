@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+</head>
+	<body>
+		<form name="feedback" method="POST" action="http://www.digitalhouse.com/post.php">
+	
+		<p>
+			Nombre:
+			<input type="text" name="nombre" placeholder="Ingresa tu nombre" required />
+
+		</p>
+
+		<p>
+			Email:
+			<input type="email" name="email" placeholder="Ingresa tu email" required />
+
+		</p>
+
+		<p>
+			Experiencia:
+			1 <input type="radio" name="experiencia" value="1"></input>
+			2 <input type="radio" name="experiencia" value="2"></input>
+			3 <input type="radio" name="experiencia" value="3"></input>
+			4 <input type="radio" name="experiencia" value="4"></input>
+			5 <input type="radio" name="experiencia" value="5"></input>
+		</p>
+
+		<p>
+		Sexo:
+			<label for="Hombre">Hombre</label>
+			<input type="radio" name="sexo" id="Hombre" value="hombre"></input><br>
+			<label for="Mujer">Mujer</label>
+			<input type="radio" name="sexo" id="Mujer" value="mujer"></input><br>
+			<label for="Otro">Otro</label>
+			<input type="radio" name="sexo" id="Otro" value="otro"></input><br>
+
+			</select>
+
+		</p>
+
+		<p>
+			Comentario:
+			<textarea name="comentario"></textarea>
+
+		</p>
+
+		<input type="submit" value="Enviar"></input>
+
+		</form>
+
+
+
+	</body>
+</html>

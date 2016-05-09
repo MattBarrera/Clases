@@ -1,0 +1,25 @@
+tfoot td{
+	text-align: right;
+}
+
+#precio{
+	
+	background-color: red;
+}
+
+#distMaxOS{
+	
+	background-color: green;
+}
+
+#distMinOS{
+
+}
+
+tbody{
+	text-align: center;
+}
+
+thead{
+	text-align: center;
+}

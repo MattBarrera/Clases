@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio4</title>
+</head>
+<body>
+	<form action="http://www.digitalhouse.com/post.php" method="POST">
+	<p>
+			Nombre:
+			<input type="text" name="nombre" placeholder="Ingresa tu nombre" required />
+
+		</p>
+
+	<p>
+			Email:
+			<input type="email" name="email" placeholder="Ingresa tu email" required />
+
+		</p>
+
+
+		<p>
+			Password:
+			<input type="password" name="password" placeholder="Ingresa tu contrasenia" required />
+
+		</p>
+
+		<p>
+			DNI:
+			<input type="regex" name="DNI" placeholder="Ejemplo 21.234.657" [0-9][0-9]?.[0-9]{3}.[0-9]{3}></input>			
+
+		</p>
+		<p>
+			Ingesa tu curriculum:
+			<textarea name="comentario"></textarea>
+
+		</p>
+		<input type="submit" value="Enviar"></input>
+		</form>
+</body>
+</html>
